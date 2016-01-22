@@ -1,0 +1,12 @@
+{% extends 'mainsite/base.html' %}
+{% load staticfiles %}
+
+{% block title %}{{ post_object.title }}{% endblock %}
+
+{% block content %}
+    <body>
+        <br>
+        <br>
+        {{ post_object.content }}
+    </body>
+{% endblock %}

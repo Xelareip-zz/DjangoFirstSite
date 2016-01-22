@@ -1,0 +1,36 @@
+
+
+#header
+{
+    height: 100px;
+    background-color: #555555;
+    z-index: 1;
+}
+
+#content
+{
+    min-height: 100%;
+    margin-bottom: -100px;
+    box-sizing: border-box;
+    z-index: 0;
+
+    background-color: #AAAAAA;
+
+}
+
+#footer
+{
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+li a
+{
+    color: green;
+}
+
+body
+{
+    margin: 0px;
+}
